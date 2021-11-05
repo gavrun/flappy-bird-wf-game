@@ -85,8 +85,9 @@ namespace flappy_bird_wf_game
             // scoreText
             // 
             this.scoreText.AutoSize = true;
+            this.scoreText.BackColor = System.Drawing.Color.Cornsilk;
             this.scoreText.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.scoreText.Location = new System.Drawing.Point(28, 31);
+            this.scoreText.Location = new System.Drawing.Point(17, 742);
             this.scoreText.Name = "scoreText";
             this.scoreText.Size = new System.Drawing.Size(110, 29);
             this.scoreText.TabIndex = 4;
@@ -105,9 +106,9 @@ namespace flappy_bird_wf_game
             this.BackColor = System.Drawing.Color.Aqua;
             this.ClientSize = new System.Drawing.Size(719, 780);
             this.Controls.Add(this.scoreText);
+            this.Controls.Add(this.flappyBird);
             this.Controls.Add(this.ground);
             this.Controls.Add(this.pipeBottom);
-            this.Controls.Add(this.flappyBird);
             this.Controls.Add(this.pipeTop);
             this.Name = "Form1";
             this.Text = "Flappy Bird";
